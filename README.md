@@ -4,11 +4,6 @@
 
 ### [2026-01-04] Initial Setup
 
-#### [23:41] Database Configuration Update
-- Update database connection configuration for test environment
-- Configure test database credentials in application-druid.yml
-- Note: This is a test database configuration, no security risk
-
 #### Project Initialization
 - Initialize project structure with all modules
 - Configure Maven project dependencies
@@ -36,3 +31,8 @@
 - **Before starting the backend**: Make sure to execute the SQL file `sql/ry-wvp-v1.3.0.sql` in your database
 - The backend service requires a MySQL database to be configured
 - Default port: 8080 (configurable in application.yml)
+
+### [2026-01-04] [23:41] Database Configuration Update
+- Update database connection configuration for test environment
+- Configure test database credentials in application-druid.yml
+- Note: This is a test database configuration, no security risk
