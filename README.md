@@ -43,3 +43,21 @@
 - Database connection verified and working
 - All modules initialized correctly
 - **Test Status**: ✅ Passed - Backend service running normally
+
+### [2026-01-05] [15:00] ZLM Service Integration
+- Integrate ZLMediaKit service with backend
+- Add ZLM configuration file: `config/ZLMediakit_config.ini`
+- Synchronize ZLM config with Ubuntu server configuration
+- Update application.yml with ZLM service connection settings
+- Successfully establish connection between backend and ZLM service
+- **Test Status**: ✅ Passed - ZLM service connected and running normally
+
+#### Deployment Environment
+- **Ubuntu Server**: 
+  - System: Linux 6.14.0-37-generic (Ubuntu 24.04)
+  - IP: 192.168.0.142
+  - ZLM Service: Running on Ubuntu
+- **Windows Development**:
+  - System: Windows 11
+  - IP: 192.168.0.138
+  - Backend Service: Running on Windows
